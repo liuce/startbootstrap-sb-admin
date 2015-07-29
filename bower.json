@@ -1,0 +1,41 @@
+{
+  "name": "startbootstrap-sb-admin",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "modernizr": "~2.8.3",
+    "angular-ui": "~0.4.0",
+    "morrisjs": "~0.5.1",
+    "font-awesome": "~4.3.0",
+    "flot": "~0.8.3",
+    "angular": "~1.4.3",
+    "angular-ui-router": "~0.2.15",
+    "angular-sanitize": "~1.4.3",
+    "angular-resource": "~1.4.3",
+    "angular-cookies": "~1.4.3",
+    "angular-flot": "~0.0.9",
+    "flot.tooltip": "~0.8.5"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    },
+    "flot": {
+      "main": [
+        "jquery.flot.js",
+        "excanvas.js",
+        "jquery.flot.resize.js",
+        "jquery.flot.time.js",
+        "jquery.flot.pie.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "mocha": "~2.2.5"
+  }
+}
